@@ -1,0 +1,12 @@
+.main-pane {
+    -fx-pref-width: 500;
+    -fx-pref-height: 500;
+    -fx-background-color: grey;
+}
+
+.center-buttons {
+    -fx-pref-width: 100;
+    -fx-max-width: 100;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}

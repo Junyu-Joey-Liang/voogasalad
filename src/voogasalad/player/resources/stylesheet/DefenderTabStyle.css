@@ -1,0 +1,22 @@
+.root {
+    -fx-background-color: #aaaaaa;
+    -fx-border-radius: 6.0;
+}
+
+.defender-box {
+    -fx-border-width: 2.0;
+    -fx-border-radius: 5.0;
+    -fx-border-color: lightpink;
+}
+
+.clicked {
+    -fx-background-color: linear-gradient(to bottom right, #93a5cf, #e4efe9);
+    -fx-border-color: lightblue;
+    -fx-border-radius: 4.0;
+    -fx-border-width: 2.0;
+}
+
+.unclicked {
+    -fx-background-color: #aaaaaa;
+    -fx-border-color: lightpink;
+}

@@ -1,0 +1,33 @@
+.grid {
+    -fx-background-color: orange;
+    -fx-pref-height: 100%;
+    -fx-padding: 20pt;
+    -fx-label-padding: 20pt;
+    -fx-pref-width: 700pt;
+}
+
+.input-box {
+    -fx-background-color: green;
+    -fx-padding: 10pt;
+}
+
+.login-button {
+    -fx-background-color: blue;
+    -fx-background-radius: 5em;
+    -fx-font-size: 15pt;
+    -fx-text-fill: white;
+    -fx-padding: 10pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.description-text {
+    -fx-font-size: 15pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-padding: 10pt;
+}
+
+.header-text {
+    -fx-font-size: 25pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-padding: 10pt;
+}

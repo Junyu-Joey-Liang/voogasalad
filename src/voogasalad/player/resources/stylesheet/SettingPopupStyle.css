@@ -1,0 +1,5 @@
+.button {
+    -fx-alignment: center;
+    -fx-border-radius: 3px;
+    -fx-border-width: 2px;
+}

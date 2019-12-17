@@ -1,0 +1,4 @@
+//https://stackoverflow.com/questions/21083945/how-to-avoid-not-on-fx-application-thread-currentthread-javafx-application-th
+//https://www.tutorialspoint.com/java/java_networking.htm
+//https://www.tutorialspoint.com/java/java_networking.htm
+https://www.geeksforgeeks.org/singleton-class-java/

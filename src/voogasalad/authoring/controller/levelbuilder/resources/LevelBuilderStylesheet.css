@@ -1,0 +1,22 @@
+.boldLabel {
+    -fx-font-family: "Century Gothic";
+    -fx-font-weight: bold;
+    -fx-text-fill: #F3FFE6;
+    -fx-background-color: #294F00;
+    -fx-max-width: 9999;
+}
+
+.borderedBox {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-background-color: #FBFFF3;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-pref-width: 980;
+}

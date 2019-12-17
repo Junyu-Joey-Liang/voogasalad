@@ -1,0 +1,35 @@
+.scrollpane {
+    -fx-pref-width: 300;
+    -fx-pref-height: 300;
+    -fx-wrap-text: true;
+}
+
+.chat-box {
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+}
+
+.text-input {
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100;
+    -fx-wrap-text: true;
+    -fx-text-alignment: top-left;
+}
+
+.send-button {
+    -fx-padding: 5;
+}
+
+.sender-message-text {
+    -fx-alignment: top-right;
+    -fx-background-color: blue;
+    -fx-font-size: 15;
+    -fx-fill: blue;
+}
+
+.receiver-message-text {
+    -fx-alignment: top-left;
+    -fx-background-color: red;
+    -fx-font-size: 15;
+    -fx-fill: grey;
+}

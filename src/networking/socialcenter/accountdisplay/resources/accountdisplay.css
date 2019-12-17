@@ -1,0 +1,83 @@
+.account-information-grid {
+    -fx-background-color: green;
+    -fx-padding: 10pt;
+    -fx-vgap: 5pt;
+    -fx-hgap: 7pt;
+}
+
+.header {
+    -fx-text-fill: black;
+    -fx-font-size: 15pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.list-body {
+    -fx-text-fill: white;
+    -fx-font-size: 15pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-text-alignment: left;
+    -fx-hgap: 20pt;
+    -fx-max-height: 100pt;
+}
+
+.input-box {
+    -fx-background-color: green;
+    -fx-padding: 10pt;
+}
+
+.button {
+    -fx-background-color: blue;
+    -fx-background-radius: 5em;
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-padding: 10pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-spacing: 5pt;
+}
+
+.thread-header {
+    -fx-text-fill: black;
+    -fx-font-size: 13pt;
+    -fx-background-color: grey;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-max-width: 550pt;
+}
+
+.current-user-message {
+    -fx-text-alignment: justify;
+    -fx-font-size: 10pt;
+    -fx-background-color: #00D9E7;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-wrap-text: true;
+    -fx-max-width: 300pt;
+    -fx-background-radius: 0.5em;
+    -fx-padding: 2pt;
+    -fx-spacing: 15pt;
+}
+
+.remote-message {
+    -fx-text-alignment: justify;
+    -fx-text-fill: black;
+    -fx-font-size: 10pt;
+    -fx-background-color: orange;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-wrap-text: true;
+    -fx-max-width: 300pt;
+    -fx-background-radius: 0.5em;
+    -fx-padding: 2pt;
+    -fx-spacing: 15pt;
+}
+
+.message-thread {
+    -fx-padding: 2pt;
+    -fx-spacing: 15pt;
+    -fx-vgap: 3pt;
+}
+
+.message-area {
+    -fx-text-alignment: left;
+    -fx-text-fill: black;
+    -fx-font-size: 10pt;
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-wrap-text: true;
+}

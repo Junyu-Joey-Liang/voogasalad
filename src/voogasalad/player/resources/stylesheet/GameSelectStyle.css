@@ -1,0 +1,121 @@
+.root {
+    -fx-background-color: linear-gradient(to right, #868f96, #e4efe9);
+}
+
+.title-box {
+    -fx-font-family: "Courier New";
+    -fx-font-size: 15pt;
+    -fx-padding: 5.0;
+    -fx-alignment: center;
+}
+
+.game-display {
+    -fx-padding: 15.0;
+    -fx-background-color: linear-gradient(to right, #868f96 , #e4efe9);
+}
+
+.game-area {
+    -fx-alignment: center;
+    -fx-border-radius: 4.0;
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+    -fx-border-color: #434343;
+    -fx-border-width: 3.0;
+    -fx-text-fill: #75838d;
+}
+
+.game-area:pressed{
+    -fx-background-color: #bbbbbb;
+    -fx-border-color: #dfe3ee;
+    -fx-text-fill: #75838d;
+}
+
+.game-area:hover {
+    -fx-background-color: linear-gradient(to bottom right, #feada6, #f5efef);
+    -fx-border-color: linear-gradient(to bottom right, #13547a, #80d0c7);
+    -fx-border-width: 6.0;
+    -fx-text-fill: #6f7c85;
+}
+
+.main-box {
+    -fx-background-color: #e5e6eb;
+    -fx-padding: 5.0;
+}
+
+/****************************************************************
+
+  ScrollBar Skin from
+  https://farrukhobaid.wordpress.com/2013/01/16/dark-scrollbar-skin-for-javafx/
+
+****************************************************************/
+.scroll-bar{
+    -fx-background-color: rgb(96,96,96);
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgb(231,231,231);
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: rgb(255,255,255);
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: rgb(211,211,211);
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}

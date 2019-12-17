@@ -1,0 +1,88 @@
+.image-with-checkbox-element {
+    -fx-alignment: center;
+    -fx-padding: 5;
+    -fx-background-color: #FBF1FF;
+    -fx-border-width: 0 2 0 2;
+    -fx-border-color: orange;
+}
+
+.image-with-slider-element {
+    -fx-alignment: center;
+    -fx-padding: 5;
+    -fx-background-color: #FBF1FF;
+    -fx-border-width: 0 2 0 2;
+    -fx-border-color: orange;
+}
+
+.image-with-multiple-slider-element {
+    -fx-alignment: center;
+    -fx-background-color: #FBF1FF;
+    -fx-border-width: 0 2 0 2;
+    -fx-border-color: orange;
+}
+
+.image-with-toggle-and-slider-element {
+    -fx-alignment: top-center;
+    -fx-padding: 5;
+    -fx-background-color: #FBF1FF;
+    -fx-border-width: 0 2 0 2;
+    -fx-border-color: orange;
+}
+
+.labelled-image-element {
+    -fx-alignment: top-center;
+    -fx-padding: 5;
+}
+
+.toggle-group-element {
+    -fx-spacing: 5;
+    -fx-background-color: #CEFFE6;
+}
+
+.toggle-group-vbox {
+    -fx-spacing: 5;
+}
+
+.radio-button {
+    -fx-font-family: "Century Gothic";
+    -fx-font-weight: bold;
+    -fx-text-fill: #3B1F00;
+}
+
+.slider-element {
+    -fx-padding: 2;
+}
+
+.text-element {
+    -fx-padding: 2;
+    -fx-alignment: center-left;
+}
+
+.text-field-element {
+    -fx-max-width: 200;
+}
+
+.label {
+    -fx-font-family: "Century Gothic";
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.slider {
+    -fx-show-tick-labels: false;
+    -fx-snap-to-ticks: true;
+    -fx-major-tick-unit: 1;
+    -fx-block-increment: 1;
+    -fx-minor-tick-count: 0;
+}
+
+.text-field {
+    -fx-font-family: "Century Gothic";
+    -fx-font-weight: bold;
+    -fx-text-fill: dimgrey;
+    -fx-background-color: gainsboro;
+}
+
+.slider-text-field-element {
+    -fx-max-width: 50;
+}

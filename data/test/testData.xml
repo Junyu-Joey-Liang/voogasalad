@@ -1,0 +1,1032 @@
+<voogasalad.data.DataStorage>
+  <myGame>
+    <myLevelList>
+      <voogasalad.gameengine.game.Level>
+        <levelMap>
+          <mapPath>
+            <junctionsBundle>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale></locale>
+                <name>voogasalad.gameengine.map.mapResources/junctions</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/junctions</name>
+                  <locale reference="../../locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module"/>
+                    <queue>
+                      <lock/>
+                      <queueLength>0</queueLength>
+                    </queue>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../moduleRef/referent"/>
+                    <queue reference="../../moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>spawn</string>
+                    <string>Spawn Point</string>
+                  </entry>
+                  <entry>
+                    <string>tTop</string>
+                    <string>Top T Path</string>
+                  </entry>
+                  <entry>
+                    <string>cross</string>
+                    <string>Cross Path</string>
+                  </entry>
+                  <entry>
+                    <string>tBottom</string>
+                    <string>Bottom T Path</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                  <entry>
+                    <string>tLeft</string>
+                    <string>Left T Path</string>
+                  </entry>
+                  <entry>
+                    <string>tRight</string>
+                    <string>Right T Path</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </junctionsBundle>
+            <upBundle>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale reference="../../../junctionsBundle/bundle/locale"/>
+                <name>voogasalad.gameengine.map.mapResources/goUp</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/goUp</name>
+                  <locale reference="../../../../junctionsBundle/bundle/locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>top</string>
+                    <string>Top T Path</string>
+                  </entry>
+                  <entry>
+                    <string>left</string>
+                    <string>Left T Path</string>
+                  </entry>
+                  <entry>
+                    <string>ne</string>
+                    <string>NE L Path</string>
+                  </entry>
+                  <entry>
+                    <string>cross</string>
+                    <string>Cross Path</string>
+                  </entry>
+                  <entry>
+                    <string>nw</string>
+                    <string>NW L Path</string>
+                  </entry>
+                  <entry>
+                    <string>vertical</string>
+                    <string>Vertical Path</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                  <entry>
+                    <string>right</string>
+                    <string>Right T Path</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </upBundle>
+            <downBundle>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale reference="../../../junctionsBundle/bundle/locale"/>
+                <name>voogasalad.gameengine.map.mapResources/goDown</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/goDown</name>
+                  <locale reference="../../../../junctionsBundle/bundle/locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>se</string>
+                    <string>SE L Path</string>
+                  </entry>
+                  <entry>
+                    <string>sw</string>
+                    <string>SW L Path</string>
+                  </entry>
+                  <entry>
+                    <string>left</string>
+                    <string>Left T Path</string>
+                  </entry>
+                  <entry>
+                    <string>bottom</string>
+                    <string>Bottom T Path</string>
+                  </entry>
+                  <entry>
+                    <string>cross</string>
+                    <string>Cross Path</string>
+                  </entry>
+                  <entry>
+                    <string>vertical</string>
+                    <string>Vertical Path</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                  <entry>
+                    <string>right</string>
+                    <string>Right T Path</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </downBundle>
+            <rightBundle>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale reference="../../../junctionsBundle/bundle/locale"/>
+                <name>voogasalad.gameengine.map.mapResources/goRight</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/goRight</name>
+                  <locale reference="../../../../junctionsBundle/bundle/locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>horizontal</string>
+                    <string>Horizontal Path</string>
+                  </entry>
+                  <entry>
+                    <string>se</string>
+                    <string>SE L Path</string>
+                  </entry>
+                  <entry>
+                    <string>top</string>
+                    <string>Top T Path</string>
+                  </entry>
+                  <entry>
+                    <string>bottom</string>
+                    <string>Bottom T Path</string>
+                  </entry>
+                  <entry>
+                    <string>ne</string>
+                    <string>NE L Path</string>
+                  </entry>
+                  <entry>
+                    <string>cross</string>
+                    <string>Cross Path</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                  <entry>
+                    <string>right</string>
+                    <string>Right T Path</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </rightBundle>
+            <leftBundle>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale reference="../../../junctionsBundle/bundle/locale"/>
+                <name>voogasalad.gameengine.map.mapResources/goLeft</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/goLeft</name>
+                  <locale reference="../../../../junctionsBundle/bundle/locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>horizontal</string>
+                    <string>Horizontal Path</string>
+                  </entry>
+                  <entry>
+                    <string>sw</string>
+                    <string>SW L Path</string>
+                  </entry>
+                  <entry>
+                    <string>top</string>
+                    <string>Top T Path</string>
+                  </entry>
+                  <entry>
+                    <string>left</string>
+                    <string>Left T Path</string>
+                  </entry>
+                  <entry>
+                    <string>bottom</string>
+                    <string>Bottom T Path</string>
+                  </entry>
+                  <entry>
+                    <string>cross</string>
+                    <string>Cross Path</string>
+                  </entry>
+                  <entry>
+                    <string>nw</string>
+                    <string>NW L Path</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </leftBundle>
+            <startEnd>
+              <expired>false</expired>
+              <bundle class="java.util.PropertyResourceBundle">
+                <locale reference="../../../junctionsBundle/bundle/locale"/>
+                <name>voogasalad.gameengine.map.mapResources/startEnd</name>
+                <expired>false</expired>
+                <cacheKey>
+                  <name>voogasalad.gameengine.map.mapResources/startEnd</name>
+                  <locale reference="../../../../junctionsBundle/bundle/locale"/>
+                  <moduleRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </moduleRef>
+                  <callerRef>
+                    <referent class="java.lang.Module" reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                    <queue reference="../../../../../junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                    <cacheKey reference="../.."/>
+                  </callerRef>
+                  <modulesHash>0</modulesHash>
+                  <format>java.properties</format>
+                  <loadTime>0</loadTime>
+                  <expirationTime>-2</expirationTime>
+                  <providersChecked>false</providersChecked>
+                </cacheKey>
+                <lookup>
+                  <entry>
+                    <string>start</string>
+                    <string>Spawn Point</string>
+                  </entry>
+                  <entry>
+                    <string>end</string>
+                    <string>End Point</string>
+                  </entry>
+                </lookup>
+              </bundle>
+            </startEnd>
+            <spawnPoint/>
+            <endPoint/>
+            <junctionRelations/>
+            <pathsToEndPoint/>
+          </mapPath>
+          <spawnPoint/>
+          <grid>
+            <voogasalad.authoring.authoringfeature.enumtypes.MapElementType-array>
+              <voogasalad.authoring.authoringfeature.enumtypes.MapElementType>BUILDABLE</voogasalad.authoring.authoringfeature.enumtypes.MapElementType>
+            </voogasalad.authoring.authoringfeature.enumtypes.MapElementType-array>
+          </grid>
+          <mapImage/>
+          <obstacleBundle>
+            <expired>false</expired>
+            <bundle class="java.util.PropertyResourceBundle">
+              <locale reference="../../../mapPath/junctionsBundle/bundle/locale"/>
+              <name>voogasalad.gameengine.map.mapResources/obstaclePlace</name>
+              <expired>false</expired>
+              <cacheKey>
+                <name>voogasalad.gameengine.map.mapResources/obstaclePlace</name>
+                <locale reference="../../../../mapPath/junctionsBundle/bundle/locale"/>
+                <moduleRef>
+                  <referent class="java.lang.Module" reference="../../../../../mapPath/junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                  <queue reference="../../../../../mapPath/junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                  <cacheKey reference="../.."/>
+                </moduleRef>
+                <callerRef>
+                  <referent class="java.lang.Module" reference="../../../../../mapPath/junctionsBundle/bundle/cacheKey/moduleRef/referent"/>
+                  <queue reference="../../../../../mapPath/junctionsBundle/bundle/cacheKey/moduleRef/queue"/>
+                  <cacheKey reference="../.."/>
+                </callerRef>
+                <modulesHash>0</modulesHash>
+                <format>java.properties</format>
+                <loadTime>0</loadTime>
+                <expirationTime>-2</expirationTime>
+                <providersChecked>false</providersChecked>
+              </cacheKey>
+              <lookup>
+                <entry>
+                  <string>horizontal</string>
+                  <string>Horizontal Path</string>
+                </entry>
+                <entry>
+                  <string>se</string>
+                  <string>SE L Path</string>
+                </entry>
+                <entry>
+                  <string>sw</string>
+                  <string>SW L Path</string>
+                </entry>
+                <entry>
+                  <string>top</string>
+                  <string>Top T Path</string>
+                </entry>
+                <entry>
+                  <string>left</string>
+                  <string>Left T Path</string>
+                </entry>
+                <entry>
+                  <string>bottom</string>
+                  <string>Bottom T Path</string>
+                </entry>
+                <entry>
+                  <string>ne</string>
+                  <string>NE L Path</string>
+                </entry>
+                <entry>
+                  <string>cross</string>
+                  <string>Cross Path</string>
+                </entry>
+                <entry>
+                  <string>nw</string>
+                  <string>NW L Path</string>
+                </entry>
+                <entry>
+                  <string>vertical</string>
+                  <string>Vertical Path</string>
+                </entry>
+                <entry>
+                  <string>right</string>
+                  <string>Right T Path</string>
+                </entry>
+              </lookup>
+            </bundle>
+          </obstacleBundle>
+        </levelMap>
+        <availableElements>
+          <entry>
+            <string>Projectile1</string>
+            <voogasalad.utilities.gameElements.projectiles.Bomb>
+              <intialParams>
+                <entry>
+                  <string>image</string>
+                  <string></string>
+                </entry>
+                <entry>
+                  <string>damage</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>Projectile1</string>
+                </entry>
+                <entry>
+                  <string>blastRadius</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>radius</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>speed</string>
+                  <int>0</int>
+                </entry>
+              </intialParams>
+              <name>Projectile1</name>
+              <elementImage></elementImage>
+              <id>1806431167</id>
+              <heading>0</heading>
+              <radius>0</radius>
+              <moveType>MoveBomb</moveType>
+              <speed>
+                <speed>0</speed>
+              </speed>
+              <exploded>false</exploded>
+              <damage>
+                <damage>0</damage>
+              </damage>
+              <counter>0</counter>
+              <lifeTime>0</lifeTime>
+              <blastRadius>0</blastRadius>
+            </voogasalad.utilities.gameElements.projectiles.Bomb>
+          </entry>
+          <entry>
+            <string>Obstacle1</string>
+            <voogasalad.utilities.gameElements.obstacles.DamageObstacle>
+              <intialParams>
+                <entry>
+                  <string>image</string>
+                  <string></string>
+                </entry>
+                <entry>
+                  <string>damage</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>cost</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>size</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>Obstacle1</string>
+                </entry>
+                <entry>
+                  <string>health</string>
+                  <int>0</int>
+                </entry>
+              </intialParams>
+              <name>Obstacle1</name>
+              <elementImage></elementImage>
+              <id>1354083458</id>
+              <heading>0</heading>
+              <radius>1</radius>
+              <obstacleType>DamageObstacleCommand</obstacleType>
+              <damage>0</damage>
+            </voogasalad.utilities.gameElements.obstacles.DamageObstacle>
+          </entry>
+          <entry>
+            <string>Defender1</string>
+            <voogasalad.utilities.gameElements.Defender>
+              <intialParams>
+                <entry>
+                  <string>image</string>
+                  <string></string>
+                </entry>
+                <entry>
+                  <string>cost</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>size</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>numProjectiles</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>Defender1</string>
+                </entry>
+                <entry>
+                  <string>health</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>targetType</string>
+                  <string></string>
+                </entry>
+                <entry>
+                  <string>radius</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>projectile</string>
+                  <voogasalad.utilities.gameElements.projectiles.Bomb>
+                    <intialParams>
+                      <entry>
+                        <string>image</string>
+                        <string></string>
+                      </entry>
+                      <entry>
+                        <string>damage</string>
+                        <int>0</int>
+                      </entry>
+                      <entry>
+                        <string>name</string>
+                        <string>Projectile1</string>
+                      </entry>
+                      <entry>
+                        <string>blastRadius</string>
+                        <int>0</int>
+                      </entry>
+                      <entry>
+                        <string>radius</string>
+                        <int>0</int>
+                      </entry>
+                      <entry>
+                        <string>speed</string>
+                        <int>0</int>
+                      </entry>
+                    </intialParams>
+                    <name>Projectile1</name>
+                    <elementImage></elementImage>
+                    <id>2125062626</id>
+                    <heading>0</heading>
+                    <radius>0</radius>
+                    <moveType>MoveBomb</moveType>
+                    <speed>
+                      <speed>0</speed>
+                    </speed>
+                    <exploded>false</exploded>
+                    <damage>
+                      <damage>0</damage>
+                    </damage>
+                    <counter>0</counter>
+                    <lifeTime>0</lifeTime>
+                    <blastRadius>0</blastRadius>
+                  </voogasalad.utilities.gameElements.projectiles.Bomb>
+                </entry>
+                <entry>
+                  <string>coolDown</string>
+                  <int>0</int>
+                </entry>
+              </intialParams>
+              <name>Defender1</name>
+              <elementImage></elementImage>
+              <id>620557167</id>
+              <heading>0</heading>
+              <radius>0</radius>
+              <numProjectiles>0</numProjectiles>
+              <projectile class="voogasalad.utilities.gameElements.projectiles.Bomb" reference="../intialParams/entry[9]/voogasalad.utilities.gameElements.projectiles.Bomb"/>
+              <targetType></targetType>
+              <coolDown>0</coolDown>
+              <counter>0</counter>
+            </voogasalad.utilities.gameElements.Defender>
+          </entry>
+          <entry>
+            <string>Attacker1</string>
+            <voogasalad.utilities.gameElements.Attacker>
+              <intialParams>
+                <entry>
+                  <string>image</string>
+                  <string></string>
+                </entry>
+                <entry>
+                  <string>damage</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>cost</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>size</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>name</string>
+                  <string>Attacker1</string>
+                </entry>
+                <entry>
+                  <string>health</string>
+                  <int>0</int>
+                </entry>
+                <entry>
+                  <string>speed</string>
+                  <int>0</int>
+                </entry>
+              </intialParams>
+              <name>Attacker1</name>
+              <elementImage></elementImage>
+              <id>1068586139</id>
+              <heading>0</heading>
+              <radius>0</radius>
+              <health>0</health>
+              <speed>
+                <speed>0</speed>
+              </speed>
+              <damage>
+                <damage>0</damage>
+              </damage>
+            </voogasalad.utilities.gameElements.Attacker>
+          </entry>
+        </availableElements>
+        <activeAttackers>
+          <attackerMap/>
+          <release>0</release>
+        </activeAttackers>
+        <startingMoney>0</startingMoney>
+        <startingHealth>0</startingHealth>
+        <income>0</income>
+        <multiplier/>
+        <setMultiplier/>
+        <scores>
+          <entry>
+            <string>Attacker1</string>
+            <int>0</int>
+          </entry>
+        </scores>
+        <attackerIncome/>
+        <cost>
+          <entry>
+            <string>Defender1</string>
+            <int>0</int>
+          </entry>
+        </cost>
+        <infinite>true</infinite>
+        <timeScore>true</timeScore>
+      </voogasalad.gameengine.game.Level>
+    </myLevelList>
+    <currentLevel>0</currentLevel>
+    <activeLevel>
+      <currentMoney>0</currentMoney>
+      <level reference="../../myLevelList/voogasalad.gameengine.game.Level"/>
+      <collisions/>
+      <currentHealth>0</currentHealth>
+      <seconds>0</seconds>
+      <activeElements/>
+      <frontEndCommands/>
+      <stepScore>0</stepScore>
+      <steps>0</steps>
+    </activeLevel>
+    <gameIcon>testData imagePath</gameIcon>
+    <title>testData</title>
+    <discription>testData description</discription>
+    <score>0</score>
+  </myGame>
+  <macroFeature>
+    <id>-1</id>
+    <name>testData</name>
+    <imagePath>testData imagePath</imagePath>
+    <description>testData description</description>
+    <LevelList>
+      <int>2</int>
+    </LevelList>
+    <idMap>
+      <entry>
+        <int>1</int>
+        <voogasalad.authoring.authoringfeature.GameMacroFeature reference="../../.."/>
+      </entry>
+      <entry>
+        <int>2</int>
+        <voogasalad.authoring.authoringfeature.LevelFeature>
+          <featureAvailabilitiesMap class="voogasalad.authoring.authoringfeature.LevelFeature$1" serialization="custom">
+            <unserializable-parents/>
+            <map>
+              <default>
+                <loadFactor>0.75</loadFactor>
+                <threshold>12</threshold>
+              </default>
+              <int>16</int>
+              <int>3</int>
+              <string>attacker</string>
+              <map>
+                <entry>
+                  <int>3</int>
+                  <boolean>true</boolean>
+                </entry>
+              </map>
+              <string>obstacle</string>
+              <map>
+                <entry>
+                  <int>5</int>
+                  <boolean>true</boolean>
+                </entry>
+              </map>
+              <string>defender</string>
+              <map>
+                <entry>
+                  <int>4</int>
+                  <boolean>true</boolean>
+                </entry>
+              </map>
+            </map>
+            <voogasalad.authoring.authoringfeature.LevelFeature_-1>
+              <default>
+                <outer-class reference="../../../.."/>
+              </default>
+            </voogasalad.authoring.authoringfeature.LevelFeature_-1>
+          </featureAvailabilitiesMap>
+          <featureValuesMap class="voogasalad.authoring.authoringfeature.LevelFeature$2" serialization="custom">
+            <unserializable-parents/>
+            <map>
+              <default>
+                <loadFactor>0.75</loadFactor>
+                <threshold>12</threshold>
+              </default>
+              <int>16</int>
+              <int>5</int>
+              <string>attackerincomes</string>
+              <map/>
+              <string>attackervalues</string>
+              <map>
+                <entry>
+                  <int>3</int>
+                  <int>0</int>
+                </entry>
+              </map>
+              <string>attackerflowmultiplier</string>
+              <map/>
+              <string>defendercosts</string>
+              <map>
+                <entry>
+                  <int>4</int>
+                  <int>0</int>
+                </entry>
+              </map>
+              <string>obstaclecosts</string>
+              <map/>
+            </map>
+            <voogasalad.authoring.authoringfeature.LevelFeature_-2>
+              <default>
+                <outer-class reference="../../../.."/>
+              </default>
+            </voogasalad.authoring.authoringfeature.LevelFeature_-2>
+          </featureValuesMap>
+          <intValuesMap class="voogasalad.authoring.authoringfeature.LevelFeature$3" serialization="custom">
+            <unserializable-parents/>
+            <map>
+              <default>
+                <loadFactor>0.75</loadFactor>
+                <threshold>12</threshold>
+              </default>
+              <int>16</int>
+              <int>5</int>
+              <string>timeincome</string>
+              <int>0</int>
+              <string>gametime</string>
+              <int>0</int>
+              <string>startingmoney</string>
+              <int>0</int>
+              <string>mapid</string>
+              <int>7</int>
+              <string>startinglives</string>
+              <int>0</int>
+            </map>
+            <voogasalad.authoring.authoringfeature.LevelFeature_-3>
+              <default>
+                <outer-class reference="../../../.."/>
+              </default>
+            </voogasalad.authoring.authoringfeature.LevelFeature_-3>
+          </intValuesMap>
+          <ID>0</ID>
+          <name>Level1</name>
+          <myResources class="java.util.PropertyResourceBundle">
+            <locale></locale>
+            <name>voogasalad.authoring.authoringfeature.resources.LevelFeatureResources</name>
+            <expired>false</expired>
+            <cacheKey>
+              <name>voogasalad.authoring.authoringfeature.resources.LevelFeatureResources</name>
+              <locale reference="../../locale"/>
+              <moduleRef>
+                <referent class="java.lang.Module"/>
+                <queue>
+                  <lock/>
+                  <queueLength>0</queueLength>
+                </queue>
+                <cacheKey reference="../.."/>
+              </moduleRef>
+              <callerRef>
+                <referent class="java.lang.Module" reference="../../moduleRef/referent"/>
+                <queue reference="../../moduleRef/queue"/>
+                <cacheKey reference="../.."/>
+              </callerRef>
+              <modulesHash>0</modulesHash>
+              <format>java.properties</format>
+              <loadTime>0</loadTime>
+              <expirationTime>-2</expirationTime>
+              <providersChecked>false</providersChecked>
+            </cacheKey>
+            <lookup>
+              <entry>
+                <string>IncomeElement</string>
+                <string>setIncomeElement,getIncomeElement</string>
+              </entry>
+              <entry>
+                <string>AttackerAvailabilityElement</string>
+                <string>setAttackerAvailabilityElement,getAttackerAvailabilityElement</string>
+              </entry>
+              <entry>
+                <string>AttackerFlowElement</string>
+                <string>setAttackerFlowElement,getAttackerFlowElement</string>
+              </entry>
+              <entry>
+                <string>ObstaclesCostElement</string>
+                <string>setObstaclesCostElement,getObstaclesCostElement</string>
+              </entry>
+              <entry>
+                <string>AttackerValueElement</string>
+                <string>setAttackerValueElement,getAttackerValueElement</string>
+              </entry>
+              <entry>
+                <string>LevelRulesElement</string>
+                <string>setLevelRulesElement,getLevelRulesElement</string>
+              </entry>
+              <entry>
+                <string>DefendersCostElement</string>
+                <string>setDefendersCostElement,getDefendersCostElement</string>
+              </entry>
+              <entry>
+                <string>MapSelectorElement</string>
+                <string>setMapSelectorElement,getMapSelectorElement</string>
+              </entry>
+              <entry>
+                <string>LevelNameElement</string>
+                <string>setLevelNameElement,getLevelNameElement</string>
+              </entry>
+              <entry>
+                <string>ObstacleAvailabilityElement</string>
+                <string>setObstacleAvailabilityElement,getObstacleAvailabilityElement</string>
+              </entry>
+              <entry>
+                <string>DefenderAvailabilityElement</string>
+                <string>setDefenderAvailabilityElement,getDefenderAvailabilityElement</string>
+              </entry>
+            </lookup>
+          </myResources>
+          <errorMessages class="java.util.PropertyResourceBundle">
+            <locale reference="../../myResources/locale"/>
+            <name>voogasalad.authoring.authoringfeature.resources.ErrorMessages</name>
+            <expired>false</expired>
+            <cacheKey>
+              <name>voogasalad.authoring.authoringfeature.resources.ErrorMessages</name>
+              <locale reference="../../../myResources/locale"/>
+              <moduleRef>
+                <referent class="java.lang.Module" reference="../../../../myResources/cacheKey/moduleRef/referent"/>
+                <queue reference="../../../../myResources/cacheKey/moduleRef/queue"/>
+                <cacheKey reference="../.."/>
+              </moduleRef>
+              <callerRef>
+                <referent class="java.lang.Module" reference="../../../../myResources/cacheKey/moduleRef/referent"/>
+                <queue reference="../../../../myResources/cacheKey/moduleRef/queue"/>
+                <cacheKey reference="../.."/>
+              </callerRef>
+              <modulesHash>0</modulesHash>
+              <format>java.properties</format>
+              <loadTime>0</loadTime>
+              <expirationTime>-2</expirationTime>
+              <providersChecked>false</providersChecked>
+            </cacheKey>
+            <lookup>
+              <entry>
+                <string>MethodInvocationError</string>
+                <string>METHOD INVOCATION ERROR. TERMINATE PROGRAM.</string>
+              </entry>
+            </lookup>
+          </errorMessages>
+          <defenderCosts reference="../featureValuesMap/map/map[4]"/>
+          <attackerValues reference="../featureValuesMap/map/map[2]"/>
+          <obstacleCosts reference="../featureValuesMap/map/map[5]"/>
+          <attackerIncomes reference="../featureValuesMap/map/map"/>
+          <attackerFlowMultiplier reference="../featureValuesMap/map/map[3]"/>
+          <mapID>7</mapID>
+          <timeIncome>0</timeIncome>
+          <startingLives>0</startingLives>
+          <startingMoney>0</startingMoney>
+          <gameTime>0</gameTime>
+          <defenderAvailabilities reference="../featureAvailabilitiesMap/map/map[3]"/>
+          <attackerAvailabilities reference="../featureAvailabilitiesMap/map/map"/>
+          <obstacleAvailabilities reference="../featureAvailabilitiesMap/map/map[2]"/>
+          <endCondition>INFINITE</endCondition>
+          <scoringRule>TIME</scoringRule>
+          <attackerSpecificFlow/>
+        </voogasalad.authoring.authoringfeature.LevelFeature>
+      </entry>
+      <entry>
+        <int>3</int>
+        <voogasalad.authoring.authoringfeature.Attacker>
+          <id>-1</id>
+          <name>Attacker1</name>
+          <imagePath></imagePath>
+          <basicConfigurations>
+            <value>0</value>
+            <health>0</health>
+            <projectileID>0</projectileID>
+            <size>0</size>
+          </basicConfigurations>
+          <damage>0</damage>
+          <speed>0</speed>
+        </voogasalad.authoring.authoringfeature.Attacker>
+      </entry>
+      <entry>
+        <int>4</int>
+        <voogasalad.authoring.authoringfeature.Defender>
+          <id>-1</id>
+          <name>Defender1</name>
+          <imagePath></imagePath>
+          <basicConfigurations>
+            <value>0</value>
+            <health>0</health>
+            <projectileID>0</projectileID>
+            <size>0</size>
+          </basicConfigurations>
+          <targetingMechanism></targetingMechanism>
+          <radiusOfVision>0</radiusOfVision>
+          <coolDown>0</coolDown>
+          <projectileID>6</projectileID>
+          <numProjectile>0</numProjectile>
+          <defaultMechanism>DumbTarget</defaultMechanism>
+        </voogasalad.authoring.authoringfeature.Defender>
+      </entry>
+      <entry>
+        <int>5</int>
+        <voogasalad.authoring.authoringfeature.Obstacle>
+          <id>-1</id>
+          <name>Obstacle1</name>
+          <imagePath></imagePath>
+          <basicConfigurations>
+            <value>0</value>
+            <health>0</health>
+            <projectileID>0</projectileID>
+            <size>0</size>
+          </basicConfigurations>
+          <damage>0</damage>
+          <obstacleType>Damage</obstacleType>
+        </voogasalad.authoring.authoringfeature.Obstacle>
+      </entry>
+      <entry>
+        <int>6</int>
+        <voogasalad.authoring.authoringfeature.Projectile>
+          <id>-1</id>
+          <name>Projectile1</name>
+          <imagePath></imagePath>
+          <speed>0.0</speed>
+          <range>0.0</range>
+          <impactType>EXPLODE</impactType>
+          <impactLevel>0</impactLevel>
+          <blastRadius>0</blastRadius>
+        </voogasalad.authoring.authoringfeature.Projectile>
+      </entry>
+      <entry>
+        <int>7</int>
+        <voogasalad.authoring.authoringfeature.MapFeature>
+          <ID>0</ID>
+          <name>Map1</name>
+          <numRows>1</numRows>
+          <numCols>1</numCols>
+          <elementImagePaths/>
+          <defaultElementInfo/>
+          <mapData>
+            <voogasalad.authoring.authoringfeature.enumtypes.MapElementType-array>
+              <voogasalad.authoring.authoringfeature.enumtypes.MapElementType>BUILDABLE</voogasalad.authoring.authoringfeature.enumtypes.MapElementType>
+            </voogasalad.authoring.authoringfeature.enumtypes.MapElementType-array>
+          </mapData>
+        </voogasalad.authoring.authoringfeature.MapFeature>
+      </entry>
+    </idMap>
+  </macroFeature>
+</voogasalad.data.DataStorage>
